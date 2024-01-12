@@ -12,11 +12,17 @@ body
     width: 36em;
     height: 61.7em;
     background-image: url(/home/igor/sign-up-Form/b1b6a16ab431144297332076aa78237d.jpg);
+    text-align: center;
+}
+@font-face {
+    font-family: "Fira Sans";
+    src: url(/home/igor/sign-up-Form/RubikScribble-Regular.ttf);
 }
 .goat-text
 {
+    font-family: "Fira Sans";
     font-size: 5em;
-    color: gold;
+    color: rgb(171, 134, 85)
 }
 .form-area
 {
