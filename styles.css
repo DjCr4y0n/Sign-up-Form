@@ -1,0 +1,27 @@
+body
+{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.background-image
+{
+    flex-grow: 1;
+    width: 36em;
+    height: 61.7em;
+    background-image: url(/home/igor/sign-up-Form/b1b6a16ab431144297332076aa78237d.jpg);
+}
+.goat-text
+{
+    font-size: 5em;
+    color: gold;
+}
+.form-area
+{
+    flex-grow: 2;
+    background-color: black;
+    width: 50em;
+    height: 61.7em;
+}
