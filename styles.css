@@ -26,8 +26,20 @@ body
 }
 .form-area
 {
+    display: flex;
     flex-grow: 1;
     background-color: black;
     width: 50em;
     height: 61.7em;
+    justify-content: center;
+}
+form
+{
+    height: 45em;
+    width: 40em;
+    display: flex;
+    flex-wrap: wrap;
+    border-color: whitesmoke;
+    border-style: solid;
+    align-self: flex-end;
 }
