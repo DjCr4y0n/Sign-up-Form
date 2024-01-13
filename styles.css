@@ -30,22 +30,22 @@ body
     display: flex;
     color: white;
     flex-grow: 1;
-    background-color: black;
+    background: linear-gradient(45deg,yellow,blue);
     width: 50em;
     height: 61.7em;
     justify-content: center;
 }
 form
 {
+    border-radius: 5px;
     height: 45em;
     width: 40em;
     display: flex;
     flex-direction:inherit;
     flex-wrap: wrap;
-    border-color: whitesmoke;
-    border-style: solid;
     align-self: flex-end;
     justify-content: space-around;
+    background: linear-gradient(45deg,yellow,blue) ;
 }
 label
 {
