@@ -8,8 +8,8 @@ body
 }
 .background-image
 {
-    flex-grow: 1;
-    width: 36em;
+    min-width: 400px;
+    width: 30vw;
     height: 61.7em;
     background-image: url(/home/igor/sign-up-Form/b1b6a16ab431144297332076aa78237d.jpg);
     text-align: center;
@@ -26,7 +26,7 @@ body
 }
 .form-area
 {
-    flex-grow: 2;
+    flex-grow: 1;
     background-color: black;
     width: 50em;
     height: 61.7em;
