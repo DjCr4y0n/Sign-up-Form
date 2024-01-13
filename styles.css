@@ -8,6 +8,7 @@ body
 }
 .background-image
 {
+    flex-shrink: 1;
     min-width: 400px;
     width: 30vw;
     height: 61.7em;
@@ -27,6 +28,7 @@ body
 .form-area
 {
     display: flex;
+    color: white;
     flex-grow: 1;
     background-color: black;
     width: 50em;
@@ -38,8 +40,19 @@ form
     height: 45em;
     width: 40em;
     display: flex;
+    flex-direction:inherit;
     flex-wrap: wrap;
     border-color: whitesmoke;
     border-style: solid;
     align-self: flex-end;
+    justify-content: space-around;
+}
+label
+{
+    display: flex;
+    flex-direction: column;
+}
+.submit-button
+{
+   
 }
