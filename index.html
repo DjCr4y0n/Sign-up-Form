@@ -15,35 +15,41 @@
         <h1>You know you want to</h1>
         <div class="form-area">
             <form>
-                <div class="form-right">
-                    <label for="first-name">
-                        First Name:
-                        <input type="text" id="first-name" placeholder="Igor" minlength="2" required>
-                    </label>
-                    <label for="last-name">
-                        Last Name:
-                        <input type="text" id="last-name" placeholder="Chadowski" minlength="2" required>
-                    </label>
-                    <label for="confirm-password">
-                        Confirm Password:
-                        <input type="password" id="confirm-password" placeholder="Confirm Password" required>
-                    </label>
-                </div>
                 <div class="form-left">
-                    <label for="email">
-                        Email:
-                        <input type="email" id="email" placeholder="dupa@domain.com" required>
-                    </label>
-                    <label for="phone-number">
-                        Phone Number:
-                        <input type="text" id="phone-number" placeholder="+48420690666" maxlength="9" pattern="[+][0-9]{8}" required>
-                    </label>
-                    <label for="password">
-                        Password:
-                        <input type="password" id="password" placeholder="Password" required>
-                    </label>
+                    <div class="names">
+                        <label for="first-name">
+                            First Name:
+                            <input type="text" id="first-name" placeholder="Igor" minlength="2" required>
+                        </label>
+                        <label for="last-name">
+                            Last Name:
+                            <input type="text" id="last-name" placeholder="Chadowski" minlength="2" required>
+                        </label>
+                    </div>
+                    <div class="phone-email">
+                        <label for="email">
+                            Email:
+                            <input type="email" id="email" placeholder="dupa@domain.com" required>
+                        </label>
+                        <label for="phone-number">
+                            Phone Number:
+                            <input type="text" id="phone-number" placeholder="+48420690666" maxlength="9" pattern="[+][0-9]{8}" required>
+                        </label>
+                    </div>
+                    <div class="passwords">
+                        <label for="password">
+                            Password:
+                            <input type="password" id="password" placeholder="Password" required>
+                        </label>
+                        <label for="confirm-password">
+                            Confirm Password:
+                            <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+                        </label>
+                    </div>
                 </div>
-                <button type="submit" class="submit-button">Become official SC30 fan</button>
+                <div class="form-right">
+                    <button type="submit" class="submit-button">Become official SC30 fan</button>
+                </div>
             </form>
         </div>
     </div>

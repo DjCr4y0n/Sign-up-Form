@@ -60,7 +60,7 @@ body
     align-self: center;
     background: linear-gradient(45deg,gold,blue);
     gap: 20px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 form
@@ -75,8 +75,17 @@ form
 {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 10px;
+    justify-content: center;
 }
+.names, .phone-email, .passwords
+{
+    gap: 4em;
+    display: flex;
+    flex-direction: row;
+}
+                    
 label
 {
     justify-content: space-between;
@@ -98,6 +107,7 @@ label
     height: 6em;
     font-family: "Form font"; 
     align-self: center;
+    width: 12em;
 }
 input
 {
@@ -105,6 +115,7 @@ input
     border-style: solid;
     height: 2.5em;
     border-radius: 5px;
+    width: 20rem;
 }
 input:not(:focus):not(:placeholder-shown):invalid
 {
