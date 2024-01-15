@@ -11,7 +11,7 @@ body
     max-width: 30vw;
     background-size: cover;
     background-position: center center;
-    background-image: url(/home/igor/sign-up-Form/bc664f72f1d85e06ca42dbaf14b49c82.jpg);
+    background-image: url(bc664f72f1d85e06ca42dbaf14b49c82.jpg);
     text-align: center;
 }
 @font-face {
@@ -29,17 +29,21 @@ body
     flex-direction: column;
     color: white;
     flex-grow: 1;
-    background: linear-gradient(45deg,yellow,blue);
+    background: linear-gradient(180deg,rgb(234, 192, 2)
+    ,rgb(30, 20, 19));
     width: 70vw;
     height: 61.7em;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .rigth-screen-area h1
 {
     font-family:'Times New Roman', Times, serif;
+    flex-wrap: wrap;
 }
 .form-area
 {
+    margin-top: 15px;
     box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -47,18 +51,21 @@ body
   0 22.3px 17.9px rgba(0, 0, 0, 0.072),
   0 41.8px 33.4px rgba(0, 0, 0, 0.086),
   0 100px 80px rgba(0, 0, 0, 0.12);
-    height: 25em;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-self: center;
-    background: linear-gradient(45deg,gold,blue);
+    background: linear-gradient(180deg,rgb(234, 192, 2)
+    ,rgb(30, 20, 19));
     gap: 20px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 form
 {
+    padding-top: 5px;
+    padding-bottom: 5px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -75,15 +82,16 @@ form
 }
 .names, .phone-email, .passwords
 {
-    gap: 4em;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+    column-gap: 5em;
 }
                     
 label
 {
     justify-content: space-between;
-    font-size: 30px;
+    font-size: 20px;
     font-family: "Form font";
     display: flex;
     flex-direction: column;
@@ -107,7 +115,7 @@ input
 {
     border-color: black;
     border-style: solid;
-    height: 2.5em;
+    height: 20px;
     border-radius: 5px;
     width: 20rem;
 }
