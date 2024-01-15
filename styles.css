@@ -12,7 +12,7 @@ body
     background-size: cover;
     background-position: center center;
     background-image: url(bc664f72f1d85e06ca42dbaf14b49c82.jpg);
-    text-align: center;
+    text-align:left;
 }
 @font-face {
     font-family: "Goat Font";
@@ -127,4 +127,18 @@ input:valid
 {
     border-color: green;
     background-color: yellowgreen;
+}
+.logo
+{
+    position: relative;
+    display: flex;
+    color: beige;
+    font-family: "Form Font";
+    flex-direction: column;
+}
+img
+{
+    width: 90px;
+    height: 100px;
+    align-self: flex-start;
 }
